@@ -1,0 +1,87 @@
+.cards {
+    
+    margin-top: 10%;
+    padding: 2%;
+   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    transition-property: left, right;
+    transition-duration: 2s;
+    
+  }
+  .card{
+    margin-bottom: 10%;
+    border: solid 3px blue;
+   border-radius: 40px 0 40px 0 ;
+   
+   box-shadow: 0 0 12px rgb(0, 0, 252);
+   opacity: 0;
+   animation: slideTop 0.5s ease forwards ;
+   animation-delay: 1s;
+  
+    
+    
+  }
+.card:hover{
+     text-shadow: 0 0 12px #7700ff;
+    box-shadow: 0 0 40px #7700ff;
+}
+  
+.card-title{
+    color: rgb(7, 240, 248);
+    text-shadow: 0 0 12px #7700ff;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+  
+ 
+ 
+
+  .card1{
+  
+    /* border-radius: ; */
+
+    align-self: flex-start;
+
+  }
+  .card2 {
+    align-self: center;
+  }
+  
+  .card3 {
+    align-self: flex-end;
+  }
+  
+  .card4 {
+    align-self: center;
+  }
+  
+  .card5 {
+    align-self: flex-start;
+  }
+  
+.card-img-top{
+    border-radius: 40px 0  0 0;
+}
+  
+.list-group-item{
+    font-size: xx-large;
+    background-color: #1f242d;
+    color: rgb(241, 238, 246);
+    
+}
+.list-group-item:hover{
+    background-color:  #30353f;
+    
+    border-bottom:3px solid #0ef;
+font-weight: bolder;
+}
+
+.card-body{
+    background-color:  #1f242d;
+    border-radius: 0 0 40px 0 ;
+}

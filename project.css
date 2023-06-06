@@ -1,0 +1,48 @@
+.card {
+    margin: 10%;
+    margin-bottom: 10%;
+    border: solid 3px rgb(7, 240, 248);
+    border-radius: 40px 0 40px 0;
+    background-color: #1f242d;
+    box-shadow: 0 0 12px rgb(7, 240, 248);
+    opacity: 0;
+    animation: slideTop 0.5s ease forwards;
+    animation-delay: 1s;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1:hover {
+    background-color: rgb(7, 240, 248);
+    color: black;
+    font-weight: bold;
+
+}
+
+.card-header {
+    color: rgb(7, 240, 248);
+    border-bottom: 0.1px solid rgb(7, 240, 248);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.card-body {
+    color: white;
+    background-color: #1f242d;
+    font-size: medium;
+    border-radius: 0 0 40px 0;
+}
+
+.card-title {
+    font-size: large;
+}
+
+.card:hover {
+
+    box-shadow: 0 0 40px #7700ff;
+}
